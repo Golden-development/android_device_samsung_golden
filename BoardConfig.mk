@@ -56,6 +56,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Kernel
 TARGET_KERNEL_CONFIG := golden_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/golden
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_IMAGE_NAME := zImage
