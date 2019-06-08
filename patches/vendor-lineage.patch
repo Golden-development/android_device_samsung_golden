@@ -1,7 +1,7 @@
-diff --git a/build/tasks/kernel.mk b/build/tasks/kernel.mk
+diff --git a/vendor/lineage/build/tasks/kernel.mk b/vendor/lineage/build/tasks/kernel.mk
 index 8965b1c..e5e9c41 100644
---- a/build/tasks/kernel.mk
-+++ b/build/tasks/kernel.mk
+--- a/vendor/lineage/build/tasks/kernel.mk
++++ b/vendor/lineage/build/tasks/kernel.mk
 @@ -321,7 +321,8 @@ INSTALLED_KERNEL_MODULES: depmod-host
  			echo "Installing Kernel Modules"; \
  			$(MAKE) $(MAKE_FLAGS) -C $(KERNEL_SRC) O=$(KERNEL_OUT) ARCH=$(KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) $(KERNEL_CLANG_TRIPLE) $(KERNEL_CC) INSTALL_MOD_PATH=../../$(KERNEL_MODULES_INSTALL) modules_install && \
