@@ -15,7 +15,6 @@
 
 # System
 /system/bin/at_distributor      u:object_r:at_distributor_exec:s0
-/system/bin/sh		--	u:object_r:shell_exec:s0
 /system/bin/usbid_init.sh       u:object_r:shell_exec:s0
 
 # Devices
