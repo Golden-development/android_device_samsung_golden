@@ -199,7 +199,8 @@ TW_CRYPTO_KEY_LOC := "footer"
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-	device/samsung/golden/sepolicy \
+	device/samsung/golden/sepolicy
+PLAT_PRIVATE_POLICY += \
 	device/samsung/golden/sepolicy_private
 
 #USE_CLANG_PLATFORM_BUILD = false 
