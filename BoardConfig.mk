@@ -198,8 +198,9 @@ TW_CRYPTO_FS_FLAGS := "0x00000406"
 TW_CRYPTO_KEY_LOC := "footer"
 
 # SELinux
-#BOARD_SEPOLICY_DIRS += \
-#	device/samsung/golden/sepolicy
+BOARD_SEPOLICY_DIRS += \
+	device/samsung/golden/sepolicy \
+	device/samsung/golden/sepolicy_private
 
 #USE_CLANG_PLATFORM_BUILD = false 
 

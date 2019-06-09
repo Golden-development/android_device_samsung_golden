@@ -1,0 +1,2 @@
+allow wait_for_keymaster debugfs:file { open write };
+allow wait_for_keymaster sysfs:file { getattr open read };
