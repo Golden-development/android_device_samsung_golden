@@ -15,8 +15,8 @@
 # limitations under the License.
 #
 
-# Inherit COSP common Phone stuff.
-$(call inherit-product-if-exists, vendor/cosp/config/common_full_phone.mk)
+# Inherit LineageOS common Phone stuff.
+$(call inherit-product-if-exists, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/golden/golden.mk)
