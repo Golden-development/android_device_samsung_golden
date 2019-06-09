@@ -202,8 +202,9 @@ BOARD_SEPOLICY_DIRS += \
 	device/samsung/golden/sepolicy
 PLAT_PRIVATE_POLICY += \
 	device/samsung/golden/sepolicy_private
+SELINUX_IGNORE_NEVERALLOWS := true
 
-#USE_CLANG_PLATFORM_BUILD = false 
+#USE_CLANG_PLATFORM_BUILD = false
 
 BLOCK_BASED_OTA := false
 KERNEL_HAS_FINIT_MODULE := false
